@@ -13,7 +13,7 @@
 # limitations under the License.
 
 FROM k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
-LABEL maintainers="Kubernetes Authors"
+LABEL maintainers="deploy"
 LABEL description="NFS subdir external provisioner"
 
 ENTRYPOINT ["/nfs-subdir-external-provisioner"]
